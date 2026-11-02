@@ -1,0 +1,11 @@
+# torch с CUDA лучше поставить заранее под свою видеокарту
+torch>=2.6
+transformers>=5.22.0
+trl>=1.17.0
+peft>=0.21.2
+bitsandbytes>=0.50.2
+datasets>=5.1.0
+pandas>=2.2
+pydantic>=2.14.2
+pyyaml>=6.0.3
+sacrebleu>=2.6.0

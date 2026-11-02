@@ -1,0 +1,22 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+# только секреты (HF_TOKEN и т.п.), конфиг — в config.yaml
+.env
+
+
+# исходные jsonl коммитим, docx с ТЗ — нет
+data/*.docx
+uv.lock
+.python-version
+
+# веса и чекпойнты в git не кладём
+models/
+.ruff_cache/

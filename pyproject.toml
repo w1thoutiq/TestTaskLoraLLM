@@ -1,0 +1,18 @@
+[project]
+name = "testtasknlp"
+version = "0.1.0"
+description = "Перенос стиля Telegram-каналов: Qwen2.5-3B + QLoRA, оценка и инференс на vLLM"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "bitsandbytes>=0.50.2",
+    "datasets>=5.1.0",
+    "pandas>=2.2",
+    "peft>=0.21.2",
+    "pydantic>=2.14.2",
+    "pyyaml>=6.0.3",
+    "sacrebleu>=2.6.0",
+    "torch>=2.6",
+    "transformers>=5.22.0",
+    "trl>=1.17.0",
+]
